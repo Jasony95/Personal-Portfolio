@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  padding: 10px;
+  padding: 10px 10px 10px 0px;
   background-color: var(--grass);
   width: 100%;
 }
@@ -60,13 +60,49 @@ a {
   text-decoration: none;
 }
 
-p {
+/* p {
+
+} */
+
+#about-me {
+  display: inline-block;
+  background-color: orange;
+}
+
+.container content p {
+  display: inline-block;
+}
+
+content .text-left h1 {
+  display: inline;
+  background-color: yellow;
+}
+
+content div .group-card section {
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+}
+
+/* .container .content .text-left {
+  display: inline-block;
+}
+
+.container .content .text-left h1 {
+  display: inline-block;
+} */
+
+content .projects {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: purple;
 
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
+.group-card {
+  /* display: flex; */
+  background-color: blue;
+  /* flex-wrap: wrap; */
 }
 
 .footer {
@@ -97,11 +133,13 @@ p {
 
 .footer .link ul li {
   display: inline-block;
+  width: 100%;
   margin-left: 20px;
 }
 
 .footer .link ul li a {
   display: block;
+  background-color: green;
 }
 
 /* @media */

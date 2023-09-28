@@ -11,31 +11,26 @@
 <body>
 
   <header class="header">
-    <div class="text-left">
-      <h1>Jason Yang</h1>
+    <div class="text-left" id="name-group">
+      <h1 id="name-card">Jason Yang</h1>
     </div>
     <nav class="link">
-      <ul>
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
-        <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
-          <a href="#contact-me">Contact Me</a>
-        </li>
-        <li>
-          <a href="">Resume</a>
-        </li>
+      <ul class="head-nav" id="head-link">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a href="">Resume</a></li>
       </ul>
     </nav>
   </header>
 
   <container class="container">
-    <content class="content">
+    <content class="content" id="about-me-card">
       <div class="text-left" id="about-me">
-        <h1>About Me</h1>
+        <h1 id="about-me-head">About Me</h1>
+      </div>
+      <div>
+        <img src="./assets/images/self.jpg" alt="Picture of myself" id="self">
       </div>
       <p class="text">
         Hi! Welcome to my portfolio. I am Jason Yang. It's nice to have you here. Feel free to check out my work. I am
@@ -43,11 +38,11 @@
       </p>
     </content>
 
-    <content class="content">
+    <content class="content" id="word-card">
       <div class="text-left" id="work">
-        <h1>Work</h1>
+        <h1 id="work-head">Work</h1>
       </div>
-      <div class="projects">
+      <div class="projects" id="projects">
         <div class="group-card">
           <section class="card">
             <header>Big Project Name</header>
@@ -77,30 +72,22 @@
         </div>
       </div>
     </content>
-  </container>
 
-    <footer class="footer">
+    <content class="content" id="contact-card">
       <div class="text-left" id="contact-me">
-        <h1>Contact Me</h1>
+        <h1 id="contact-me-head">Contact Me</h1>
       </div>
-      <nav class="link">
-        <ul>
+      <nav class="link" id="group-contact">
+        <ul class="self-link">
           <li><a href="">854-968-2566</a></li>
-        </ul>
-        <ul>
           <li><a href="">JasonYang@website.com</a></li>
-        </ul>
-        <ul>
           <li><a href="">GitHub</a></li>
-        </ul>
-        <ul>
           <li><a href="">Twitter</a></li>
-        </ul>
-        <ul>
           <li><a href="">Spotify</a></li>
         </ul>
       </nav>
-    </footer>
+    </content>
+  </container>
 
 </body>
 

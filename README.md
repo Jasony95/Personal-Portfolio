@@ -1,44 +1,67 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+# <MyPorfolio>
 
-These are common Git commands used in various situations:
+## Description
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+My motivation is to create a webpage that contain mini projects that I had done throughout my web development pratices. 
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+I build this project, because this portfolio will be used to support me in my web development employment in the future.
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+The problem it solves is that it would contain links to project that will help me show my web development skills.
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+I've learned a lot about flexbox and its usefulness. I strongly think that flexbox conflicts with inline and block properties, but it should be used as a required format for web developers.
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+## Table of Contents (Optional)
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [HowToContribute](#how-to-contribute)
+- [Tests](#tests)
+
+## Installation
+
+There is no need to install but to only open the index.html file through a browser; however, Chrome is recommended in this case.
+
+## Usage
+
+There is no usage for the webpage except to include links to be directed to another webpage.
+
+## Credits
+
+Sources used for the pictures as placeholders images:
+
+Horiseon Project: https://jasony95.github.io/horiseon-sample-html/
+
+Grass Picture: https://unsplash.com/s/photos/green-grass
+
+Sky Picture: https://unsplash.com/s/photos/blue-sky
+
+Snow Picture: https://unsplash.com/photos/cFplR9ZGnAk
+
+Forest Picture: https://unsplash.com/photos/yW4HGzwVisg
+
+
+## License
+
+No license is used in the repo.
+
+## Badges
+
+No badges for now.
+
+## Features
+
+If your project has a lot of features, list them here.
+
+Some features include having to be sent to a part of the webpage after clicking on certain texts which are in the header and next to the contact me section.
+
+## How to Contribute
+
+There is no need to contribute since this is more for the individual.
+
+## Tests
+
+Running test is no needed.
